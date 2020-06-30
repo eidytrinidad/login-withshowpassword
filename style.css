@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form
+{
+  position: relative;
+  /* background-color: #0B4F6C; */
+  
+  width: 100%;
+  border-radius: 0.4rem;
+  max-width: 300px;
+  padding: 1.2rem;
+ 
+  
+}
+.form .passBox
+{
+  display: flex;
+
+}
+
+
+.form .botonSubmit
+{
+  
+  width: 7rem;
+  margin: auto;
+ display: block;
+ background-color: #92D1C3;
+ color: #0B4F6C;
+ font-weight: 600;
+}
+
+.form .botonSubmit:hover
+{
+  
+  width: 7rem;
+  margin: auto;
+ display: block;
+ background-color: #fff;
+ color: #0B4F6C;
+ 
+}
+
+.form h3
+{
+  color: #92D1C3;
+  text-align: center;
+}
+.form label{
+  color: #FBFBFF;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.contenedor
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
